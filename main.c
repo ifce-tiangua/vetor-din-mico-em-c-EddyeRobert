@@ -26,7 +26,7 @@ int main() {
     for (int i = 0; i < tamanho; i++) {
         printf("%d", vetor[i]);
         if (i < tamanho - 1) {
-            printf(",");
+            printf(", ");
         }
     }
     printf("]\n");
